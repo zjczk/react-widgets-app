@@ -1,0 +1,42 @@
+.new-widget {
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fde8cd;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.info {
+    padding-bottom: 1.5em;
+}
+
+.new-widget h2 {
+    color: #ff7171
+}
+
+.new-widget label {
+    display: block;
+    color: #00917c;
+    margin: 10px auto;
+}
+
+.new-widget input,
+.new-widget select {
+    width: 90%;
+    border-style: solid;
+    border-color: #00917c;
+    border-width: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-widget::before {
+    content: '\f234';
+    font-family: FontAwesome;
+    font-size: 1.7em;
+}

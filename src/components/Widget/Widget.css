@@ -1,0 +1,21 @@
+.widget {
+    width: 250px;
+    padding: 16px;
+    background-color: #fde8cd;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.entry {
+    margin: 16px 0;
+    color: #00917c;
+}
+
+.delete-btn::before {
+    content: '\f235';
+    font-family: FontAwesome;
+    font-size: 1.7em;
+}

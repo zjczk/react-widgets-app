@@ -1,0 +1,42 @@
+.widgets {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.delete-dialog {
+    font-weight: 600;
+    color: #9b3675;
+}
+
+.cancel-btn::before { 
+    content: '\f057';
+    color: #ff005c;
+    font-family: FontAwesome;
+    font-size: 1.7em;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.confirm-btn::before {
+    content: '\f164';
+    color: #ff005c;
+    font-family: FontAwesome;
+    font-size: 1.7em;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.add-entry {
+    color: #e84545;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-weight: bolder;
+  background: #f5d782;
+}
+
+.add-entry:hover {
+    background: #ffd880;
+    color: #ac0d0d;
+}

@@ -1,0 +1,19 @@
+.modal {
+    position: fixed;
+    background-color: #cee6b4;
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid rgba(170, 50, 220, .6);
+    box-shadow: 0 2px 3px #ccc;;
+    padding: 16px;
+    left: calc(50% - 150px);
+    top: 30%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+    .modal {
+        width: 70%;
+        left: 15%;
+    }
+}
